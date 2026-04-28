@@ -28,7 +28,8 @@ Plan: Master Plan v4.3 (foundations + builder + 5 sprint layers)
 - GF-2 SQL: SQLBolt bookmarked, DBeaver installed ✅
 - L4 Builder: Backup prospect list created ✅
 - Tracker initialized ✅
-- Hours: ___ (fill in at end of day)
+- Hours: 7 (Setup 0.5, Build 3, DSA 1, SQL 0.5, Research 1, Other 1)✅
+- Notes: First DSA problem took 3 attempts. Git friction in two repos. Build session was mostly debugging, not systematic testing — owe self a verdict by Sunday.
 - Notes:
 
 #### Tue Apr 28
