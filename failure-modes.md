@@ -78,7 +78,7 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Impact (Critical / annoying / cosmetic): Critical
 **Confidence in cause (high / medium / low / unknown): Low
 
-## FM-08:Edge cases
+## FM-08: UI changes automatically in different scenarios (text only/voice)
 **Trigger:**
 **Symptom:**
 **Suspected cause: Multiple failing cases
@@ -96,7 +96,7 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Impact (Critical / annoying / cosmetic): Critical
 **Confidence in cause (high / medium / low / unknown): Low
 
-## FM-10:Error Handling
+## FM-10:Basic conversation flow failing
 **Trigger:**
 **Symptom:**
 **Suspected cause: Abrupt
@@ -105,4 +105,24 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Impact (Critical / annoying / cosmetic): Critical
 **Confidence in cause (high / medium / low / unknown): Unknown
 
-Thursday (April-30-2026) Testing Priority: Prompt/persona, Error handling, Integration, Edge cases
+---
+
+## Architectural diagnosis (Day 03 — Apr 29, 2026)
+
+The triage process surfaced that these failures are not independent
+bugs but symptoms of architectural rot:
+
+1. Tests exist but are not enforced as gates — fixes can land red
+2. Coupling between components is implicit, not designed — changes
+   ripple unpredictably
+3. Code was authored by Claude Code without an architect specifying
+   boundaries — organic coupling was the inevitable result
+
+**Verdict (preliminary, to be confirmed Saturday):** rebuild, not patch.
+The prototype was the spec. v2 will be built using Vizuara curriculum
+(starts May 5) as the architectural foundation, with each lecture's
+domain (ASR, TTS, state machine, etc.) implemented as a clean module
+in v2.
+
+**No more patches to the existing codebase between now and Saturday.**
+Saturday is for reading the codebase as data, not editing it.
