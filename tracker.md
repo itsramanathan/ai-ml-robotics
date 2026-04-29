@@ -30,10 +30,15 @@ Plan: Master Plan v4.3 (foundations + builder + 5 sprint layers)
 - Tracker initialized ✅
 - Hours: 7 (Setup 0.5, Build 3, DSA 1, SQL 0.5, Research 1, Other 1)✅
 - Notes: First DSA problem took 3 attempts. Git friction in two repos. Build session was mostly debugging, not systematic testing — owe self a verdict by Sunday.
-- Notes:
 
 #### Tue Apr 28
-- 
+- L3 Foundations: 3B1B CNumPy basics + vector arithmetic + dot product two ways, 3Blue1Brown Essence of Linear Algebra Ch 1 & 2 (watched twice)✅
+- GF-1 DSA: Contains Duplicate ✅
+- GF-2 SQL: SQLBolt Lessons 1-3 (SELECT, FROM, WHERE, LIKE, IN, BETWEEN, AND/OR/NOT) ✅
+- L4 Builder: Voice agent failure-modes triage (memory dump, no editor) ✅
+- Tracker: End-of-day log + reflection ✅
+- Hours: 5 (L3 1.5, L4 0.5, DSA 1, SQL 0.5, Other 1.5)✅
+- Notes: Vectors took longer.
 
 #### Wed Apr 29
 - 
