@@ -20,6 +20,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Does not use live kit's noise suppression / isolation
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Annoying
+**Confidence in cause (high / medium / low / unknown): High
 
 ## FM-02:LLM responseHallucinates? Wrong format? Forgets context? Refuses unexpectedly?
 
@@ -28,6 +30,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Check sales.yaml and instructions
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Medium
 
 ## FM-03:TTS (text-to-speech)Mispronunciations? Wrong voice? Audio artifacts? Weird pauses?
 **Trigger:**
@@ -35,6 +39,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Voice changes from time to time. It also mispronounces and hallucinates
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Annoying
+**Confidence in cause (high / medium / low / unknown): Medium
 
 ## FM-04:Latency
 **Trigger:**
@@ -42,6 +48,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: multiple llm calls
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Annoying
+**Confidence in cause (high / medium / low / unknown): High
 
 ## FM-05:Conversation flow
 **Trigger:**
@@ -49,6 +57,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Talks over
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Annoying
+**Confidence in cause (high / medium / low / unknown): Low
 
 ## FM-06:State management
 **Trigger:**
@@ -56,6 +66,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Session management has to be implemented
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Medium
 
 ## FM-07:Integration
 **Trigger:**
@@ -63,6 +75,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Livekit has to be integrated properly
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Low
 
 ## FM-08:Edge cases
 **Trigger:**
@@ -70,6 +84,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Multiple failing cases
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Unknown
 
 ## FM-09:Prompt/persona
 **Trigger:**
@@ -77,6 +93,8 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Out of character
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Low
 
 ## FM-10:Error Handling
 **Trigger:**
@@ -84,3 +102,7 @@ Customer status: verbal commitment, 2-week trial, then paid. Last meaningful con
 **Suspected cause: Abrupt
 **Frequency: Often
 **Last seen:**
+**Impact (Critical / annoying / cosmetic): Critical
+**Confidence in cause (high / medium / low / unknown): Unknown
+
+Thursday (April-30-2026) Testing Priority: Prompt/persona, Error handling, Integration, Edge cases
