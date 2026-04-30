@@ -41,7 +41,46 @@ Plan: Master Plan v4.3 (foundations + builder + 5 sprint layers)
 - Notes: Vectors took longer.
 
 #### Wed Apr 29
-- 
+Hours total: ~5 hr (planned 3.5)
+
+LAYER HOURS:
+  L3 Foundations: ~1.25 hr (3B1B Ch3 + transformations notebook + role distinction conversation)
+  L4 Builder: ~1 hr (failure-modes triage v2 + architectural diagnosis)
+  GF-1 DSA: ~0.75 hr (Valid Anagram, both implementations, 6/6 tests)
+  GF-2 SQL: ~0.5 hr (SQLBolt 4-6 complete; 7 deferred to Day 4)
+
+COMMITS (5 total across 3 repos):
+  ai-ml-robotics: day-03-transformations.ipynb (linear transformations)
+  ai-ml-robotics: failure-modes.md v2 (impact + confidence columns)
+  ai-ml-robotics: failure-modes.md v3 (architectural diagnosis section)
+  dsa-journey: 03-valid-anagram.py (hashmap + sorted)
+  dsa-journey: README.md (pattern entry)
+
+CONFIDENCE RATINGS (1-5):
+  Linear transformations as columns-as-basis: 4
+  Matrix-vector multiplication (recipe + rows-dot-input): 4
+  Row vs column reading direction: 8
+  Hash-pattern (3rd rep): 6
+  SQL JOIN basics: 6
+  LEFT JOIN with mismatched column names: 2
+
+WHAT CLICKED TODAY:
+  - 
+
+WHAT'S STILL FUZZY:
+  - Left join on 2 different tables
+
+ONE THING I COULDN'T HAVE DONE A WEEK AGO:
+  - DSA
+
+BIGGEST WIN OF THE DAY:
+  - Linear Algebra
+
+ROLLED TO DAY 4:
+  - SQLBolt Lesson 7 (OUTER JOINs)
+  - Customers/purchases LEFT JOIN exercise (lock mismatched-names confusion)
+
+PACE CHECK: slow
 
 #### Thu Apr 30
 - 
