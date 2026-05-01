@@ -83,7 +83,39 @@ ROLLED TO DAY 4:
 PACE CHECK: slow
 
 #### Thu Apr 30
-- 
+## Day 4 — Thursday, April 30, 2026
+
+**Pre-program prep · Day 4 of 8 · Vizuara starts in 4 days**
+
+| Layer | Hours |
+|---|---|
+| L4 Builder (confirmation tests) | 1.25 |
+| L3 Foundations (3B1B Ch 4 + composition notebook) | 1.0 |
+| GF-2 SQL (Lesson 7 + customers/purchases LEFT JOIN) | 0.75 |
+| **Total** | **3.0** |
+
+**Confidence ratings (1-5):**
+- Linear algebra (3B1B through Ch 4): 5
+- SQL JOINs (after Lesson 7 + LEFT JOIN exercise): 4
+- Voice agent diagnosis (after confirmation tests): 4
+
+**What clicked today:**
+Linear Algebra 
+
+**What's still fuzzy:**
+SQL 
+
+**One thing I couldn't have done a week ago:**
+Basic select query 
+
+**Pace check:** slow 
+
+**Most important thing for Day 5 (Friday):**
+Build on top of this
+
+**Commits today:**
+- ai-ml-robotics: 2 (confirmation-tests.md, day-04-composition.ipynb)
+- dsa-journey: 0 (DSA scheduled tomorrow per cadence)
 
 #### Fri May 1
 - 
