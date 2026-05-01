@@ -19,3 +19,26 @@ I will be happy to jump on a call at a suitable time this week to explain this f
 
 Cheers,
 Ramanathan
+
+---
+
+## SATURDAY POLISH NOTES (do not send the version above as-is)
+
+What's good:
+- §2 verdict is plain (architectural rebuild, no hedge)
+- §4 has a specific date (June 15)
+- §5 is a real ask
+- §6 offers a call (relationship layer)
+
+What to add Saturday (~30 min of work):
+1. §1 — name the April→June slip explicitly. The trial was scheduled
+   for April. Acknowledge that 2 months have passed before getting to
+   the new date.
+2. §4 — add ONE sentence on why June 15 is credible:
+   "I'm using the Vizuara Voice Agents bootcamp (May 5 - June 30) as
+   the architectural backbone for the rebuild — each module maps to
+   a clean component in v2."
+3. Final read-through: does any sentence sound salesy? Cut it.
+
+Verdict to keep front-of-mind: this is a rebuild, not a fix.
+The Vizuara program IS the rebuild plan, not parallel to it.
