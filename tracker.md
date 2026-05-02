@@ -118,7 +118,62 @@ Build on top of this
 - dsa-journey: 0 (DSA scheduled tomorrow per cadence)
 
 #### Fri May 1
-- 
+## Day 5 — Friday, May 1, 2026
+
+**Phase:** Pre-program · Day 5 of 8 · Vizuara starts in 3 days
+
+**Hours logged:** ~3.0 hr
+
+**L4 Builder (1.0 hr):**
+- Customer message draft v1 + Saturday polish notes
+  - 3 iterations: soft → honest → final
+  - 6-section structure + appended raw notes for Saturday's polish pass
+  - Specific date in §5 (June 15), call offered in §6
+  - 2 known gaps for Saturday: April→June slip acknowledgment, Vizuara credibility sentence
+  - Commits: customer-message-draft-v1.md (initial + polish notes)
+
+**L3 Foundations (1.0 hr):**
+- 3B1B Ch 6 — Determinants (watched + notebook)
+  - Geometric meaning: det = area/volume scaling factor
+  - Negative det = orientation flip
+  - Zero det = collapse to lower dimension = no inverse = info destroyed
+  - Notebook: 4 cells, prediction-then-numpy-confirm pattern
+  - File-the-connection: det=0 → singular matrix → reappears in NN training, regression, PCA
+  - Commit: day-05-determinants.ipynb
+
+**GF-1 DSA (1.0 hr):**
+- NeetCode #4 — Group Anagrams (Medium) — FIRST MEDIUM
+  - Brute force first: n² with 'used' parallel list of booleans
+  - Got stuck on Q3-Q4 (loop control + state tracking) → asked Claude
+  - Concepts unlocked: [False]*n, range(start, stop), guard clause vs else,
+    enumerate vs range(len), defaultdict(list) factory pattern
+  - Optimal: 5 lines using defaultdict(list) keyed by sorted string
+  - Both solutions return identical 3-group output
+  - Commit: 04-group-anagram.py + README journal entry
+
+**Tracker hygiene:**
+- DSA cadence officially starts next Tuesday (per GF-1: Tue/Fri).
+  Tonight was a head-start; doesn't break cadence.
+- Customer message in recoverable state for Saturday polish.
+
+**Confidence ratings (1-5):**
+- Customer message ready for Sunday: 4 (Saturday polish needed but clear path)
+- Determinants intuition: 4 (geometric picture is clear; algebraic formula is not yet, deferred)
+- DSA pattern recognition: 3 (hash-map-with-engineered-key feels real now)
+
+**What clicked:**
+- The "name the gap, ask, internalize, continue" loop. Asked 4 small Python
+  questions tonight; each one closed a hole worth ~5 future problems.
+- The brute force → optimal mental move: "I'm computing the same thing in
+  the inner loop; memoize it once outside" — that's the pattern of patterns.
+- Customer comms iteration: soft → honest → final in 3 passes, 30 min.
+
+**What's blocked:**
+- Nothing.
+
+**Most important thing for tomorrow (Saturday):**
+- 30-min polish pass on customer message v1 → v2 (use polish notes)
+- Day 6 plan as queued
 
 #### Sat May 2
 - 
